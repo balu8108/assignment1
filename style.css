@@ -1,0 +1,41 @@
+*
+{
+  margin:0px;
+  padding:0px;
+}
+#header
+{
+  height:140px;
+  width:100%;
+  padding-top: 60px;
+  background-color: grey;
+}
+.navigation {
+    display:block;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    font-size:10px;
+    font-weight:bold;
+    float:left;
+    margin-top: 2%;
+    font-family:Gabriola;
+}
+.navigation:hover {
+    background: #262626;
+}
+#home
+{
+  margin-left:32%;
+}
+#home,#about,#portfolio,#contact
+{
+   margin-right:4%;
+}
